@@ -1,5 +1,5 @@
 .react-calendar { 
-    width: 700px;
+    width: 1000px;
     max-width: 100%;
     background-color: #ffffff;
     color: #222;
@@ -79,4 +79,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width:400px;
+    height: 400px;
+  }
+
+  .react-calendar__tile {
+    height: 100px;
+    width: 500px;
   }
