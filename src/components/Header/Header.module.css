@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  /* border-bottom: 1px solid #ffffff; */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  position: sticky; /* position 을 sticky로 설정하고 top, left를 각 0으로 주어야 딱 왼쪽 상단에 붙어있음 */
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.logoLink {
+  display: flex;
+  align-items: center;
+}
+
+.header img {
+  height: 45px;
+  width: auto;
+}
